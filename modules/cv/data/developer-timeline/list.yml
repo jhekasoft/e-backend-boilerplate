@@ -125,3 +125,7 @@
 - year: 2023
   desc:
     - "**NestJS**"
+
+- year: 2025
+  desc:
+    - "**AI APIs** (Open AI, Claude Code etc)"

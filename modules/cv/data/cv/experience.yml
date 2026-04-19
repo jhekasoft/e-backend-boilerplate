@@ -47,9 +47,17 @@
   desc: ~
 
 - startYear: 2024
-  endYear: ~
+  endYear: 2025
   title: Backend Developer (Go), cryptography
   company: LLC "Avtor"
   companyUrl: ~
   location: Kyiv
+  desc: ~
+
+- startYear: 2026
+  endYear: ~
+  title: Backend Developer (Go)
+  company: "Ne skazhu, hlopci i divchata"
+  companyUrl: ~
+  location: ~
   desc: ~
