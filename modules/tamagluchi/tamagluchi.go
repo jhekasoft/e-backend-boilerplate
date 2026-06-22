@@ -1,10 +1,10 @@
 package tamagluchi
 
 import (
-	internalModels "e-backend/internal/models"
 	"e-backend/modules/tamagluchi/handler"
 	"e-backend/modules/tamagluchi/repository"
 	"e-backend/modules/tamagluchi/service"
+	internalModels "e-backend/pkg/ebackend/models"
 )
 
 type TamagluchiModule struct {

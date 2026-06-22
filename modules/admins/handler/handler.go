@@ -1,8 +1,8 @@
 package handler
 
 import (
-	"e-backend/internal/crud"
 	"e-backend/modules/admins/models"
+	"e-backend/pkg/ebackend/crud"
 )
 
 type Handler struct {

@@ -1,9 +1,9 @@
 package handler
 
 import (
-	"e-backend/internal/crud"
 	"e-backend/modules/sum/models"
 	"e-backend/modules/sum/service"
+	"e-backend/pkg/ebackend/crud"
 	"fmt"
 	"net/http"
 

@@ -1,6 +1,6 @@
 package models
 
-import "e-backend/internal/crud"
+import "e-backend/pkg/ebackend/crud"
 
 // AdminRole is role of the administrator.
 type AdminRole string

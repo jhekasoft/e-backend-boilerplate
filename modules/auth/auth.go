@@ -1,12 +1,12 @@
 package auth
 
 import (
-	"e-backend/internal/http/middleware"
-	internalModels "e-backend/internal/models"
 	"e-backend/modules/auth/handler"
 	"e-backend/modules/auth/models"
 	"e-backend/modules/auth/repository"
 	"e-backend/modules/auth/service"
+	"e-backend/pkg/ebackend/http/middleware"
+	internalModels "e-backend/pkg/ebackend/models"
 )
 
 type AuthModule struct {

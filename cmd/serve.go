@@ -23,7 +23,9 @@ package cmd
 
 import (
 	"e-backend/internal"
-	"e-backend/internal/models"
+	"e-backend/modules"
+	"e-backend/pkg/ebackend"
+	"e-backend/pkg/ebackend/models"
 	"log"
 
 	"github.com/spf13/cobra"
@@ -59,6 +61,6 @@ func runHTTPApp(cmd *cobra.Command, args []string) {
 		log.Fatalf("unable to decode into struct, %v", err)
 	}
 
-	app := internal.NewHTTPApp(conf)
-	app.Run()
+	app := ebackend.NewHTTPApp(conf)
+	app.Run(modules.EnabledModules, internal.Version, internal.BuildTime)
 }

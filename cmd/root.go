@@ -23,7 +23,7 @@ package cmd
 
 import (
 	"e-backend/internal"
-	"e-backend/internal/models"
+	"e-backend/pkg/ebackend/models"
 	"fmt"
 	"os"
 
