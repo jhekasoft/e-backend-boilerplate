@@ -1,12 +1,13 @@
 package sum
 
 import (
-	internalModels "e-backend/internal/models"
-	"e-backend/modules/sum/handler"
-	"e-backend/modules/sum/models"
-	"e-backend/modules/sum/repository"
-	"e-backend/modules/sum/service"
+	"e-backend-boilerplate/modules/sum/handler"
+	"e-backend-boilerplate/modules/sum/models"
+	"e-backend-boilerplate/modules/sum/repository"
+	"e-backend-boilerplate/modules/sum/service"
 	"log"
+
+	internalModels "github.com/jhekasoft/e-backend/models"
 )
 
 type SumModule struct {

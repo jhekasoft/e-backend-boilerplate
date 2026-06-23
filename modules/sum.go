@@ -3,7 +3,7 @@
 
 package modules
 
-import "e-backend/modules/sum"
+import "e-backend-boilerplate/modules/sum"
 
 func init() {
 	m := sum.NewModule()

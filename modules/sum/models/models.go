@@ -1,7 +1,7 @@
 package models
 
 import (
-	"e-backend/internal/crud"
+	"github.com/jhekasoft/e-backend/crud"
 
 	"gorm.io/gorm"
 )

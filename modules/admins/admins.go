@@ -1,11 +1,12 @@
 package admins
 
 import (
-	internalModels "e-backend/internal/models"
-	"e-backend/modules/admins/handler"
-	"e-backend/modules/admins/models"
-	"e-backend/modules/admins/repository"
-	"e-backend/modules/admins/service"
+	"e-backend-boilerplate/modules/admins/handler"
+	"e-backend-boilerplate/modules/admins/models"
+	"e-backend-boilerplate/modules/admins/repository"
+	"e-backend-boilerplate/modules/admins/service"
+
+	internalModels "github.com/jhekasoft/e-backend/models"
 )
 
 type AdminsModule struct {

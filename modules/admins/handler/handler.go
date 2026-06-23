@@ -1,8 +1,9 @@
 package handler
 
 import (
-	"e-backend/internal/crud"
-	"e-backend/modules/admins/models"
+	"e-backend-boilerplate/modules/admins/models"
+
+	"github.com/jhekasoft/e-backend/crud"
 )
 
 type Handler struct {

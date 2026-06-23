@@ -1,8 +1,8 @@
 package service
 
 import (
-	"e-backend/modules/tamagluchi/models"
-	"e-backend/modules/tamagluchi/repository"
+	"e-backend-boilerplate/modules/tamagluchi/models"
+	"e-backend-boilerplate/modules/tamagluchi/repository"
 )
 
 type Service struct {

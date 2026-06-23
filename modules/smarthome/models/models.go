@@ -1,7 +1,7 @@
 package models
 
 import (
-	"e-backend/internal/crud"
+	"github.com/jhekasoft/e-backend/crud"
 
 	"github.com/jackc/pgtype"
 )

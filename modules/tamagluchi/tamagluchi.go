@@ -1,10 +1,11 @@
 package tamagluchi
 
 import (
-	internalModels "e-backend/internal/models"
-	"e-backend/modules/tamagluchi/handler"
-	"e-backend/modules/tamagluchi/repository"
-	"e-backend/modules/tamagluchi/service"
+	"e-backend-boilerplate/modules/tamagluchi/handler"
+	"e-backend-boilerplate/modules/tamagluchi/repository"
+	"e-backend-boilerplate/modules/tamagluchi/service"
+
+	internalModels "github.com/jhekasoft/e-backend/models"
 )
 
 type TamagluchiModule struct {

@@ -1,11 +1,12 @@
 package handler
 
 import (
-	"e-backend/internal/crud"
-	"e-backend/modules/sum/models"
-	"e-backend/modules/sum/service"
+	"e-backend-boilerplate/modules/sum/models"
+	"e-backend-boilerplate/modules/sum/service"
 	"fmt"
 	"net/http"
+
+	"github.com/jhekasoft/e-backend/crud"
 
 	"github.com/labstack/echo/v4"
 )

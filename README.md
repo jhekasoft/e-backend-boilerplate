@@ -1,6 +1,6 @@
-# e-backend
+# e-backend-boilerplate
 
-`e-backend` is a backend for all the projects.
+`e-backend-boilerplate` is a backend for all the projects.
 
 ![cat](./modules/doc/data/public/android-chrome-192x192.png)
 
@@ -21,10 +21,10 @@ createdb ebackend
 ## Prepare
 
 ```bash
-cp .e-backend.example .e-backend
+cp .config.example .config
 ```
 
-And then edit `.e-backend` file.
+And then edit `.config` file.
 
 ## Run HTTP-server
 
@@ -49,41 +49,36 @@ make clean
 Run binary:
 
 ```bash
-./build/e-backend serve
+./build/e-backend-boilerplate serve
 ```
 
 ## Run as service (POSIX systems with systemd)
 
 ```bash
-sudo mkdir /opt/e-backend
-sudo cp ./build/* /opt/e-backend -r
-sudo cp /opt/e-backend/.e-backend.example /opt/e-backend/.e-backend
-sudo cp ./systemd/e-backend.service /etc/systemd/system/
+sudo mkdir /opt/e-backend-boilerplate
+sudo cp ./build/* /opt/e-backend-boilerplate -r
+sudo cp /opt/e-backend-boilerplate/.e-backend-boilerplate.example /opt/e-backend-boilerplate/.e-backend-boilerplate
+sudo cp ./systemd/e-backend-boilerplate.service /etc/systemd/system/
 sudo systemctl daemon-reload
-sudo systemctl enable --now e-backend.service
+sudo systemctl enable --now e-backend-boilerplate.service
 ```
 
 ## Module generation
 
-```bash
-go run -tags="all dev" main.go module create [name] -t crud
-```
-
-Where `name` is name of module is `lowerCamelCase`, `-t` is template name
-(simple, crud).
+See [e-backend-cli](https://github.com/jhekasoft/e-backend-cli).
 
 # Run with docker
 
 Build image:
 
 ```bash
-docker build -f dockerfiles/Dockerfile -t e-backend .
+docker build -f dockerfiles/Dockerfile -t e-backend-boilerplate .
 ```
 
 Run:
 
 ```bash
-docker run --name e-backend --rm --network host \
--v "$(pwd)/.e-backend:/app/.e-backend" \
-e-backend
+docker run --name e-backend-boilerplate --rm --network host \
+-v "$(pwd)/.e-backend-boilerplate:/app/.e-backend-boilerplate" \
+e-backend-boilerplate
 ```

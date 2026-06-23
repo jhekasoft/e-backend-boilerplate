@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"e-backend/modules/sum/models"
+	"e-backend-boilerplate/modules/sum/models"
 
 	"gorm.io/gorm"
 )

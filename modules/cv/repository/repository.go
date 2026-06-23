@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"e-backend/modules/cv/models"
+	"e-backend-boilerplate/modules/cv/models"
 	"os"
 	"path"
 	"slices"

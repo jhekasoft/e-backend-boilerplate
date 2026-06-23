@@ -3,7 +3,7 @@
 
 package modules
 
-import "e-backend/modules/admins"
+import "e-backend-boilerplate/modules/admins"
 
 func init() {
 	m := admins.NewModule()

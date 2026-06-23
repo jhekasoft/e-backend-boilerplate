@@ -3,7 +3,7 @@
 
 package modules
 
-import "e-backend/modules/doc"
+import "e-backend-boilerplate/modules/doc"
 
 func init() {
 	m := doc.NewModule()

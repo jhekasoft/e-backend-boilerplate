@@ -1,12 +1,13 @@
 package auth
 
 import (
-	"e-backend/internal/http/middleware"
-	internalModels "e-backend/internal/models"
-	"e-backend/modules/auth/handler"
-	"e-backend/modules/auth/models"
-	"e-backend/modules/auth/repository"
-	"e-backend/modules/auth/service"
+	"e-backend-boilerplate/modules/auth/handler"
+	"e-backend-boilerplate/modules/auth/models"
+	"e-backend-boilerplate/modules/auth/repository"
+	"e-backend-boilerplate/modules/auth/service"
+
+	"github.com/jhekasoft/e-backend/http/middleware"
+	internalModels "github.com/jhekasoft/e-backend/models"
 )
 
 type AuthModule struct {

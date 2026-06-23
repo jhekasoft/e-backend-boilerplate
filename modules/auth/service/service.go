@@ -1,8 +1,8 @@
 package service
 
 import (
-	"e-backend/modules/auth/models"
-	"e-backend/modules/auth/repository"
+	"e-backend-boilerplate/modules/auth/models"
+	"e-backend-boilerplate/modules/auth/repository"
 	"errors"
 	"strconv"
 	"time"

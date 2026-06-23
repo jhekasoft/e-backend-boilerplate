@@ -3,7 +3,7 @@
 
 package modules
 
-import "e-backend/modules/smarthome"
+import "e-backend-boilerplate/modules/smarthome"
 
 func init() {
 	m := smarthome.NewModule()

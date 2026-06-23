@@ -3,7 +3,7 @@
 
 package modules
 
-import "e-backend/modules/tamagluchi"
+import "e-backend-boilerplate/modules/tamagluchi"
 
 func init() {
 	m := tamagluchi.NewModule()

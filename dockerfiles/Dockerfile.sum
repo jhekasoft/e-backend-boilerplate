@@ -31,4 +31,4 @@ WORKDIR /app
 COPY --from=builder /app/build/. /app/.
 
 # Command to run the application when the container starts
-CMD ["/app/e-backend", "serve"]
+CMD ["/app/e-backend-boilerplate", "serve"]

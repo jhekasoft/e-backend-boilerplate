@@ -1,11 +1,12 @@
 package cv
 
 import (
-	internalModels "e-backend/internal/models"
-	"e-backend/modules/cv/handler"
-	"e-backend/modules/cv/repository"
-	"e-backend/modules/cv/service"
+	"e-backend-boilerplate/modules/cv/handler"
+	"e-backend-boilerplate/modules/cv/repository"
+	"e-backend-boilerplate/modules/cv/service"
 	"path"
+
+	internalModels "github.com/jhekasoft/e-backend/models"
 )
 
 const CVBaseURL = "/"

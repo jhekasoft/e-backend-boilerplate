@@ -1,14 +1,15 @@
 package handler
 
 import (
-	internalHttp "e-backend/internal/http"
-	internalModels "e-backend/internal/models"
-	"e-backend/modules/auth/models"
-	"e-backend/modules/auth/service"
+	"e-backend-boilerplate/modules/auth/models"
+	"e-backend-boilerplate/modules/auth/service"
 	"errors"
 	"fmt"
 	"net/http"
 	"strconv"
+
+	internalHttp "github.com/jhekasoft/e-backend/http"
+	internalModels "github.com/jhekasoft/e-backend/models"
 
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/labstack/echo/v4"

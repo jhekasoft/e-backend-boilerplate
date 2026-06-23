@@ -3,7 +3,7 @@
 
 package modules
 
-import "e-backend/modules/auth"
+import "e-backend-boilerplate/modules/auth"
 
 func init() {
 	m := auth.NewModule()

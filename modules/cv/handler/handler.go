@@ -1,8 +1,8 @@
 package handler
 
 import (
-	"e-backend/modules/cv/models"
-	"e-backend/modules/cv/service"
+	"e-backend-boilerplate/modules/cv/models"
+	"e-backend-boilerplate/modules/cv/service"
 	"net/http"
 
 	"github.com/labstack/echo/v4"

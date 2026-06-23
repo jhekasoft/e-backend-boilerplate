@@ -1,11 +1,12 @@
 package smarthome
 
 import (
-	internalModels "e-backend/internal/models"
-	"e-backend/modules/smarthome/handler"
-	"e-backend/modules/smarthome/models"
-	"e-backend/modules/smarthome/repository"
-	"e-backend/modules/smarthome/service"
+	"e-backend-boilerplate/modules/smarthome/handler"
+	"e-backend-boilerplate/modules/smarthome/models"
+	"e-backend-boilerplate/modules/smarthome/repository"
+	"e-backend-boilerplate/modules/smarthome/service"
+
+	internalModels "github.com/jhekasoft/e-backend/models"
 )
 
 type SmartHomeModule struct {
