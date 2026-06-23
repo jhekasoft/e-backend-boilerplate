@@ -1,10 +1,10 @@
 package cv
 
 import (
-	"e-backend/modules/cv/handler"
-	"e-backend/modules/cv/repository"
-	"e-backend/modules/cv/service"
-	internalModels "e-backend/pkg/ebackend/models"
+	"e-backend-boilerplate/modules/cv/handler"
+	"e-backend-boilerplate/modules/cv/repository"
+	"e-backend-boilerplate/modules/cv/service"
+	internalModels "e-backend-boilerplate/pkg/ebackend/models"
 	"path"
 )
 

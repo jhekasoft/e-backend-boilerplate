@@ -1,11 +1,11 @@
 package smarthome
 
 import (
-	"e-backend/modules/smarthome/handler"
-	"e-backend/modules/smarthome/models"
-	"e-backend/modules/smarthome/repository"
-	"e-backend/modules/smarthome/service"
-	internalModels "e-backend/pkg/ebackend/models"
+	"e-backend-boilerplate/modules/smarthome/handler"
+	"e-backend-boilerplate/modules/smarthome/models"
+	"e-backend-boilerplate/modules/smarthome/repository"
+	"e-backend-boilerplate/modules/smarthome/service"
+	internalModels "e-backend-boilerplate/pkg/ebackend/models"
 )
 
 type SmartHomeModule struct {

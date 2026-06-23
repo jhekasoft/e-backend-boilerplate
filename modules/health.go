@@ -3,7 +3,7 @@
 
 package modules
 
-import "e-backend/modules/health"
+import "e-backend-boilerplate/modules/health"
 
 func init() {
 	m := health.NewModule()

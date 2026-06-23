@@ -1,7 +1,7 @@
 package models
 
 import (
-	"e-backend/pkg/ebackend/crud"
+	"e-backend-boilerplate/pkg/ebackend/crud"
 
 	"github.com/jackc/pgtype"
 )

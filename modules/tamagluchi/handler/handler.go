@@ -1,8 +1,8 @@
 package handler
 
 import (
-	"e-backend/modules/tamagluchi/models"
-	"e-backend/modules/tamagluchi/service"
+	"e-backend-boilerplate/modules/tamagluchi/models"
+	"e-backend-boilerplate/modules/tamagluchi/service"
 	"net/http"
 
 	"github.com/labstack/echo/v4"

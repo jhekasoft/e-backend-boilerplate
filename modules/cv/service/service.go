@@ -2,8 +2,8 @@ package service
 
 import (
 	"bytes"
-	"e-backend/modules/cv/models"
-	"e-backend/modules/cv/repository"
+	"e-backend-boilerplate/modules/cv/models"
+	"e-backend-boilerplate/modules/cv/repository"
 	"path"
 	"text/template"
 )

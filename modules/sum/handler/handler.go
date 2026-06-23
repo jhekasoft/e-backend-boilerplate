@@ -1,9 +1,9 @@
 package handler
 
 import (
-	"e-backend/modules/sum/models"
-	"e-backend/modules/sum/service"
-	"e-backend/pkg/ebackend/crud"
+	"e-backend-boilerplate/modules/sum/models"
+	"e-backend-boilerplate/modules/sum/service"
+	"e-backend-boilerplate/pkg/ebackend/crud"
 	"fmt"
 	"net/http"
 

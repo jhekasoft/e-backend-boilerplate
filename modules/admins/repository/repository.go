@@ -1,8 +1,8 @@
 package repository
 
 import (
-	"e-backend/modules/admins/models"
-	"e-backend/pkg/ebackend/crud"
+	"e-backend-boilerplate/modules/admins/models"
+	"e-backend-boilerplate/pkg/ebackend/crud"
 
 	"gorm.io/gorm"
 )

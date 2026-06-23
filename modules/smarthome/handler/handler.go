@@ -1,8 +1,8 @@
 package handler
 
 import (
-	"e-backend/modules/smarthome/models"
-	"e-backend/modules/smarthome/service"
+	"e-backend-boilerplate/modules/smarthome/models"
+	"e-backend-boilerplate/modules/smarthome/service"
 	"errors"
 	"fmt"
 	"regexp"

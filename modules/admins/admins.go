@@ -1,11 +1,11 @@
 package admins
 
 import (
-	"e-backend/modules/admins/handler"
-	"e-backend/modules/admins/models"
-	"e-backend/modules/admins/repository"
-	"e-backend/modules/admins/service"
-	internalModels "e-backend/pkg/ebackend/models"
+	"e-backend-boilerplate/modules/admins/handler"
+	"e-backend-boilerplate/modules/admins/models"
+	"e-backend-boilerplate/modules/admins/repository"
+	"e-backend-boilerplate/modules/admins/service"
+	internalModels "e-backend-boilerplate/pkg/ebackend/models"
 )
 
 type AdminsModule struct {

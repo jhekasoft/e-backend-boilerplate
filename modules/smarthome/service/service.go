@@ -1,8 +1,8 @@
 package service
 
 import (
-	"e-backend/modules/smarthome/models"
-	"e-backend/modules/smarthome/repository"
+	"e-backend-boilerplate/modules/smarthome/models"
+	"e-backend-boilerplate/modules/smarthome/repository"
 )
 
 type Service struct {

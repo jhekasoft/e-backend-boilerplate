@@ -1,4 +1,4 @@
 /build
-.e-backend
+.e-backend-boilerplate
 /modules/sum/data/*.db
 /tmp

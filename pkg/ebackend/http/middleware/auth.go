@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"e-backend/pkg/ebackend/models"
+	"e-backend-boilerplate/pkg/ebackend/models"
 
 	"github.com/golang-jwt/jwt/v5"
 	echojwt "github.com/labstack/echo-jwt/v4"

@@ -65,8 +65,8 @@
   imageUrl: public/software-projects/sum-bot.jpg
 
 - year: 2024
-  title: e-backend
-  url: https://github.com/jhekasoft/e-backend
+  title: e-backend-boilerplate
+  url: https://github.com/jhekasoft/e-backend-boilerplate
   desc: "Golang project, Technologies: Go, PostgreSQL, Makefile"
-  imageUrl: public/software-projects/e-backend.jpg
+  imageUrl: public/software-projects/e-backend-boilerplate.jpg
 

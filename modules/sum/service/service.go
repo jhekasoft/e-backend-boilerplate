@@ -1,9 +1,9 @@
 package service
 
 import (
-	"e-backend/modules/sum/models"
-	"e-backend/modules/sum/repository"
-	"e-backend/pkg/ebackend/crud"
+	"e-backend-boilerplate/modules/sum/models"
+	"e-backend-boilerplate/modules/sum/repository"
+	"e-backend-boilerplate/pkg/ebackend/crud"
 	"log"
 	"strings"
 

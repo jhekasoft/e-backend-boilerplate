@@ -1,7 +1,7 @@
 package doc
 
 import (
-	internalModels "e-backend/pkg/ebackend/models"
+	internalModels "e-backend-boilerplate/pkg/ebackend/models"
 	"path"
 )
 

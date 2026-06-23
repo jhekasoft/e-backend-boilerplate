@@ -1,8 +1,8 @@
 package ebackend
 
 import (
-	internalHttp "e-backend/pkg/ebackend/http"
-	"e-backend/pkg/ebackend/models"
+	internalHttp "e-backend-boilerplate/pkg/ebackend/http"
+	"e-backend-boilerplate/pkg/ebackend/models"
 	"fmt"
 	"log"
 	"net/http"
@@ -86,7 +86,7 @@ func (a *HTTPApp) Run(modules []models.Module, version, buildTime string) {
 
 		mqttOpts := mqtt.NewClientOptions()
 		mqttOpts.AddBroker(fmt.Sprintf("tcp://%s:%d", config.MQTT.Host, config.MQTT.Port))
-		mqttOpts.SetClientID("e-backend_client")
+		mqttOpts.SetClientID("e-backend-boilerplate_client")
 		mqttOpts.OnConnect = mqttConnectHandler
 		mqttOpts.OnConnectionLost = mqttConnectLostHandler
 		mqttClient := mqtt.NewClient(mqttOpts)

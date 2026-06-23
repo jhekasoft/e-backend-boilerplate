@@ -1,5 +1,5 @@
 [Unit]
-Description=e-backend
+Description=e-backend-boilerplate
 After=network-online.target
 Wants=network-online.target systemd-networkd-wait-online.service
 
@@ -12,8 +12,8 @@ RestartSec=5s
 
 User=root
 
-WorkingDirectory=/opt/e-backend
-ExecStart=/opt/e-backend/e-backend serve
+WorkingDirectory=/opt/e-backend-boilerplate
+ExecStart=/opt/e-backend-boilerplate/e-backend-boilerplate serve
 
 [Install]
 WantedBy=multi-user.target

@@ -1,12 +1,12 @@
 package auth
 
 import (
-	"e-backend/modules/auth/handler"
-	"e-backend/modules/auth/models"
-	"e-backend/modules/auth/repository"
-	"e-backend/modules/auth/service"
-	"e-backend/pkg/ebackend/http/middleware"
-	internalModels "e-backend/pkg/ebackend/models"
+	"e-backend-boilerplate/modules/auth/handler"
+	"e-backend-boilerplate/modules/auth/models"
+	"e-backend-boilerplate/modules/auth/repository"
+	"e-backend-boilerplate/modules/auth/service"
+	"e-backend-boilerplate/pkg/ebackend/http/middleware"
+	internalModels "e-backend-boilerplate/pkg/ebackend/models"
 )
 
 type AuthModule struct {

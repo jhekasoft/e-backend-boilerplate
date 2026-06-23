@@ -1,10 +1,10 @@
 package handler
 
 import (
-	"e-backend/modules/auth/models"
-	"e-backend/modules/auth/service"
-	internalHttp "e-backend/pkg/ebackend/http"
-	internalModels "e-backend/pkg/ebackend/models"
+	"e-backend-boilerplate/modules/auth/models"
+	"e-backend-boilerplate/modules/auth/service"
+	internalHttp "e-backend-boilerplate/pkg/ebackend/http"
+	internalModels "e-backend-boilerplate/pkg/ebackend/models"
 	"errors"
 	"fmt"
 	"net/http"

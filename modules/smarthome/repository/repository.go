@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"e-backend/modules/smarthome/models"
+	"e-backend-boilerplate/modules/smarthome/models"
 
 	"gorm.io/gorm"
 )

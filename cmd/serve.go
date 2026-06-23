@@ -22,10 +22,10 @@ THE SOFTWARE.
 package cmd
 
 import (
-	"e-backend/internal"
-	"e-backend/modules"
-	"e-backend/pkg/ebackend"
-	"e-backend/pkg/ebackend/models"
+	"e-backend-boilerplate/internal"
+	"e-backend-boilerplate/modules"
+	"e-backend-boilerplate/pkg/ebackend"
+	"e-backend-boilerplate/pkg/ebackend/models"
 	"log"
 
 	"github.com/spf13/cobra"

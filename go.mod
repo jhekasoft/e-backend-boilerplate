@@ -1,4 +1,4 @@
-module e-backend
+module e-backend-boilerplate
 
 go 1.24.0
 

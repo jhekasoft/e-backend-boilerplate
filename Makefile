@@ -1,9 +1,9 @@
 #!/usr/bin/env make
-# e-backend
+# e-backend-boilerplate
 
 BUILD_TIME=$(shell date -Iseconds)
 VERSION=$(shell cat ./VERSION)
-LDFLAGS=-s -w -X 'e-backend/internal.BuildTime=$(BUILD_TIME)' -X 'e-backend/internal.Version=$(VERSION)'
+LDFLAGS=-s -w -X 'e-backend-boilerplate/internal.BuildTime=$(BUILD_TIME)' -X 'e-backend-boilerplate/internal.Version=$(VERSION)'
 TAGS=all
 DEV_TAGS=all dev
 
@@ -11,7 +11,7 @@ all: clean build doc data
 
 build:
 	$(info ************ BUILDING EXECUTABLE FILE ************)
-	go build -ldflags "$(LDFLAGS)" -tags="$(TAGS)" -o ./build/e-backend
+	go build -ldflags "$(LDFLAGS)" -tags="$(TAGS)" -o ./build/e-backend-boilerplate
 
 doc:
 	$(info ************ BUILDING DOC ************)

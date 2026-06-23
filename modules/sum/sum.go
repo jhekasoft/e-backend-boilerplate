@@ -1,11 +1,11 @@
 package sum
 
 import (
-	"e-backend/modules/sum/handler"
-	"e-backend/modules/sum/models"
-	"e-backend/modules/sum/repository"
-	"e-backend/modules/sum/service"
-	internalModels "e-backend/pkg/ebackend/models"
+	"e-backend-boilerplate/modules/sum/handler"
+	"e-backend-boilerplate/modules/sum/models"
+	"e-backend-boilerplate/modules/sum/repository"
+	"e-backend-boilerplate/modules/sum/service"
+	internalModels "e-backend-boilerplate/pkg/ebackend/models"
 	"log"
 )
 

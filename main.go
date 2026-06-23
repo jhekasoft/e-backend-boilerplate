@@ -21,7 +21,7 @@ THE SOFTWARE.
 */
 package main
 
-import "e-backend/cmd"
+import "e-backend-boilerplate/cmd"
 
 func main() {
 	cmd.Execute()

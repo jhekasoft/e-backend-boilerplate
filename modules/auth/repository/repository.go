@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"e-backend/modules/auth/models"
+	"e-backend-boilerplate/modules/auth/models"
 
 	"gorm.io/gorm"
 )

@@ -1,7 +1,7 @@
 package health
 
 import (
-	"e-backend/pkg/ebackend/models"
+	"e-backend-boilerplate/pkg/ebackend/models"
 	"net/http"
 
 	"github.com/labstack/echo/v4"

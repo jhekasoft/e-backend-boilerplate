@@ -3,7 +3,7 @@
 
 package modules
 
-import "e-backend/modules/cv"
+import "e-backend-boilerplate/modules/cv"
 
 func init() {
 	m := cv.NewModule()

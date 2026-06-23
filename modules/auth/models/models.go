@@ -5,7 +5,7 @@ import (
 
 	"gorm.io/gorm"
 
-	internalModels "e-backend/pkg/ebackend/models"
+	internalModels "e-backend-boilerplate/pkg/ebackend/models"
 )
 
 type User struct {
