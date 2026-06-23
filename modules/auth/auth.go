@@ -5,8 +5,9 @@ import (
 	"e-backend-boilerplate/modules/auth/models"
 	"e-backend-boilerplate/modules/auth/repository"
 	"e-backend-boilerplate/modules/auth/service"
-	"e-backend-boilerplate/pkg/ebackend/http/middleware"
-	internalModels "e-backend-boilerplate/pkg/ebackend/models"
+
+	"github.com/jhekasoft/e-backend/http/middleware"
+	internalModels "github.com/jhekasoft/e-backend/models"
 )
 
 type AuthModule struct {

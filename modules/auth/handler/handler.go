@@ -3,12 +3,13 @@ package handler
 import (
 	"e-backend-boilerplate/modules/auth/models"
 	"e-backend-boilerplate/modules/auth/service"
-	internalHttp "e-backend-boilerplate/pkg/ebackend/http"
-	internalModels "e-backend-boilerplate/pkg/ebackend/models"
 	"errors"
 	"fmt"
 	"net/http"
 	"strconv"
+
+	internalHttp "github.com/jhekasoft/e-backend/http"
+	internalModels "github.com/jhekasoft/e-backend/models"
 
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/labstack/echo/v4"

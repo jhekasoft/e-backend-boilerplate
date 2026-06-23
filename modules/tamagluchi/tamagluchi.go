@@ -4,7 +4,8 @@ import (
 	"e-backend-boilerplate/modules/tamagluchi/handler"
 	"e-backend-boilerplate/modules/tamagluchi/repository"
 	"e-backend-boilerplate/modules/tamagluchi/service"
-	internalModels "e-backend-boilerplate/pkg/ebackend/models"
+
+	internalModels "github.com/jhekasoft/e-backend/models"
 )
 
 type TamagluchiModule struct {

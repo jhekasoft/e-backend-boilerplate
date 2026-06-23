@@ -5,8 +5,9 @@ import (
 	"e-backend-boilerplate/modules/sum/models"
 	"e-backend-boilerplate/modules/sum/repository"
 	"e-backend-boilerplate/modules/sum/service"
-	internalModels "e-backend-boilerplate/pkg/ebackend/models"
 	"log"
+
+	internalModels "github.com/jhekasoft/e-backend/models"
 )
 
 type SumModule struct {

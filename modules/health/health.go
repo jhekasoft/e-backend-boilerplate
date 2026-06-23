@@ -1,8 +1,9 @@
 package health
 
 import (
-	"e-backend-boilerplate/pkg/ebackend/models"
 	"net/http"
+
+	"github.com/jhekasoft/e-backend/models"
 
 	"github.com/labstack/echo/v4"
 )

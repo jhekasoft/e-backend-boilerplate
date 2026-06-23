@@ -24,9 +24,11 @@ package cmd
 import (
 	"e-backend-boilerplate/internal"
 	"e-backend-boilerplate/modules"
-	"e-backend-boilerplate/pkg/ebackend"
-	"e-backend-boilerplate/pkg/ebackend/models"
 	"log"
+
+	ebackend "github.com/jhekasoft/e-backend"
+
+	"github.com/jhekasoft/e-backend/models"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"

@@ -65,12 +65,7 @@ sudo systemctl enable --now e-backend-boilerplate.service
 
 ## Module generation
 
-```bash
-go run -tags="all dev" main.go module create [name] -t crud
-```
-
-Where `name` is name of module is `lowerCamelCase`, `-t` is template name
-(simple, crud).
+See [e-backend-cli](https://github.com/jhekasoft/e-backend-cli).
 
 # Run with docker
 

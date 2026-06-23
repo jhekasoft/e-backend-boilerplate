@@ -5,7 +5,8 @@ import (
 	"e-backend-boilerplate/modules/admins/models"
 	"e-backend-boilerplate/modules/admins/repository"
 	"e-backend-boilerplate/modules/admins/service"
-	internalModels "e-backend-boilerplate/pkg/ebackend/models"
+
+	internalModels "github.com/jhekasoft/e-backend/models"
 )
 
 type AdminsModule struct {

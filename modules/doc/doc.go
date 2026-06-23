@@ -1,8 +1,9 @@
 package doc
 
 import (
-	internalModels "e-backend-boilerplate/pkg/ebackend/models"
 	"path"
+
+	internalModels "github.com/jhekasoft/e-backend/models"
 )
 
 const DataPath = "./modules/doc/data"

@@ -1,5 +1,5 @@
 package modules
 
-import "e-backend-boilerplate/pkg/ebackend/models"
+import "github.com/jhekasoft/e-backend/models"
 
 var EnabledModules = []models.Module{}

@@ -3,9 +3,10 @@ package handler
 import (
 	"e-backend-boilerplate/modules/sum/models"
 	"e-backend-boilerplate/modules/sum/service"
-	"e-backend-boilerplate/pkg/ebackend/crud"
 	"fmt"
 	"net/http"
+
+	"github.com/jhekasoft/e-backend/crud"
 
 	"github.com/labstack/echo/v4"
 )

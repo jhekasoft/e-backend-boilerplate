@@ -3,9 +3,10 @@ package service
 import (
 	"e-backend-boilerplate/modules/sum/models"
 	"e-backend-boilerplate/modules/sum/repository"
-	"e-backend-boilerplate/pkg/ebackend/crud"
 	"log"
 	"strings"
+
+	"github.com/jhekasoft/e-backend/crud"
 
 	"github.com/glebarez/sqlite"
 	"gorm.io/gorm"

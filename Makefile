@@ -24,7 +24,7 @@ doc:
 data:
 	$(info ************ BUILDING DATA FILES ************)
 	# Config example
-	cp ./.e-backend.example ./build/.e-backend.example
+	cp ./.config.example ./build/.config.example
 
 	# Module CV
 	mkdir -p ./build/modules/cv/data

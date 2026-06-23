@@ -5,7 +5,8 @@ import (
 	"e-backend-boilerplate/modules/smarthome/models"
 	"e-backend-boilerplate/modules/smarthome/repository"
 	"e-backend-boilerplate/modules/smarthome/service"
-	internalModels "e-backend-boilerplate/pkg/ebackend/models"
+
+	internalModels "github.com/jhekasoft/e-backend/models"
 )
 
 type SmartHomeModule struct {

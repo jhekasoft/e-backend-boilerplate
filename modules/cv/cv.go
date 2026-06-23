@@ -4,8 +4,9 @@ import (
 	"e-backend-boilerplate/modules/cv/handler"
 	"e-backend-boilerplate/modules/cv/repository"
 	"e-backend-boilerplate/modules/cv/service"
-	internalModels "e-backend-boilerplate/pkg/ebackend/models"
 	"path"
+
+	internalModels "github.com/jhekasoft/e-backend/models"
 )
 
 const CVBaseURL = "/"
