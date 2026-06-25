@@ -1,6 +1,6 @@
 # --- Build Stage ---
 # Use an official Go image as the build stage base
-FROM golang:1.25-alpine AS builder
+FROM golang:1.26-alpine AS builder
 
 # Install make
 RUN apk update && apk add --no-cache make
@@ -18,7 +18,7 @@ RUN go mod download
 COPY . .
 
 # Build from Makefile
-RUN make
+RUN make all-no-workspace
 
 # --- Final Stage ---
 # Start from a minimal, non-golang base image (e.g., 'scratch' or 'alpine')

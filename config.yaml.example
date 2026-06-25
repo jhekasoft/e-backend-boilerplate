@@ -1,5 +1,6 @@
-# Mode: "develop"
+Mode: "develop"
 DB:
+  Enabled: true
   DSN: "host=localhost port=5432 user=user dbname=ebackend sslmode=disable"
 HTTP:
   Port: 1988

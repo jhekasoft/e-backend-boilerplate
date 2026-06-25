@@ -9,12 +9,15 @@ DEV_TAGS=all dev
 
 all: clean build doc data
 
+all-no-workspace: clean build-no-workspace doc data
+
 build:
-	$(info ************ BUILDING EXECUTABLE FILE ************)
 	go build -ldflags "$(LDFLAGS)" -tags="$(TAGS)" -o ./build/e-backend-boilerplate
 
+build-no-workspace:
+	GOWORK=off go build -ldflags "$(LDFLAGS)" -tags="$(TAGS)" -o ./build/e-backend-boilerplate
+
 doc:
-	$(info ************ BUILDING DOC ************)
 	# Update REST doc's version
 	sed -i "s/\(version:\) .*/\1 $(VERSION)/" ./modules/doc/data/public/restapi/openapi/openapi.yml
 
@@ -22,9 +25,8 @@ doc:
 	sed -i "s/\(version:\) .*/\1 $(VERSION)/" ./modules/doc/data/public/mqttapi/asyncapi/asyncapi.yml
 
 data:
-	$(info ************ BUILDING DATA FILES ************)
 	# Config example
-	cp ./.config.example ./build/.config.example
+	cp ./config.yaml.example ./build/config.yaml.example
 
 	# Module CV
 	mkdir -p ./build/modules/cv/data
@@ -37,21 +39,15 @@ data:
 	cp -r ./modules/doc/data/* ./build/modules/doc/data
 
 clean:
-	$(info ************ CLEANING ************)
 	rm -rf ./build
 
 run:
-	$(info ************ RUNNING ************)
 	go run -ldflags "$(LDFLAGS)" -tags="$(DEV_TAGS)" main.go serve
 
+run-no-workspace:
+	GOWORK=off go run -ldflags "$(LDFLAGS)" -tags="$(DEV_TAGS)" main.go serve
+
 test:
-	$(info ************ RUNNING TESTS ************)
 	go test ./...
 
-sum: clean build-sum doc data
-
-build-sum:
-	$(info ************ BUILDING EXECUTABLE FILE ************)
-	go build -ldflags "$(LDFLAGS)" -tags="health doc sum" -o ./build/e-backend
-
-.PHONY: all doc run sum
+.PHONY: all doc run

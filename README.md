@@ -72,13 +72,13 @@ See [e-backend-cli](https://github.com/jhekasoft/e-backend-cli).
 Build image:
 
 ```bash
-docker build -f dockerfiles/Dockerfile -t e-backend-boilerplate .
+docker build -f Dockerfile -t e-backend-boilerplate .
 ```
 
 Run:
 
 ```bash
 docker run --name e-backend-boilerplate --rm --network host \
--v "$(pwd)/.e-backend-boilerplate:/app/.e-backend-boilerplate" \
+-v "$(pwd)/config.yaml:/app/config.yaml" \
 e-backend-boilerplate
 ```
